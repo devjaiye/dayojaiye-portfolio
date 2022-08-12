@@ -37,3 +37,14 @@
     cursor: pointer;
     color: var(--orange);
 }
+
+.n-button{
+    flex: 2;
+}
+
+.button:hover{
+    color: var(--orange);
+    cursor: pointer;
+    background: var(--white);
+    border: 1px solid;
+}
