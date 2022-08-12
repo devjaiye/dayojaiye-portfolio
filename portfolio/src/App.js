@@ -1,8 +1,11 @@
+import Navbar from "./Components/Navbar/Navbar";
+import './App.css'
 
 const App=() => {
   return(
      <div className="App"> 
-        Changing the world for better!
+       {/* place your componets here */}
+       <Navbar/>
        </div>
   )
 }
