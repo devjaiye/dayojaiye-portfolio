@@ -39,7 +39,7 @@ function Intro() {
             <img src={vector2} alt="yellow vector" />
             <img src={boy} alt="" />
             <div>
-                <FloatingDiv/>
+                <FloatingDiv image={crown} txt1="Web" txt2="Developer"/>
             </div>
 
         </div>

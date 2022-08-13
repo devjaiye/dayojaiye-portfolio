@@ -1,11 +1,13 @@
 import React from 'react'
 
-function FloatingDiv() {
+function FloatingDiv({image, txt1, txt2}) {
   return (
-    <div className="FLoatingDiv">
-        <span>Web</span>
-        <br />
-        <span>Developer</span>
+    <div className="floatingdiv">
+        <img src={image} alt="" />
+        <span>{txt1}
+            <br/>
+            {txt2}
+        </span>
     </div>
   )
 }
