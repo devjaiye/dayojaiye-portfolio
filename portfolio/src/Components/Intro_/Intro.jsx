@@ -1,6 +1,14 @@
 import React from 'react'
 import './Intro.css'
-// 
+import github from '../../img/github.png'
+import linkedin from '../../img/linkedin.png'
+import instagram from '../../img/instagram.png'
+import boy from '../../img/boy.png'
+import vector1 from '../../img/Vector1.png'
+import vector2 from '../../img/Vector2.png'
+import thumbup from '../../img/thumbup.png'
+import crown from '../../img/crown.png'
+import glassesImoji from '../../img/glassesimoji.png'
 
 function Intro() {
   return (
@@ -17,10 +25,17 @@ function Intro() {
             <button className="button i-button">
                 Hire me
             </button>
+            <div className="i-icons">
+                <img src={linkedin} alt="linkedin" />
+                <img src={instagram} alt="instagram" />
+                <img src={github} alt="github" />
+            </div>
         </div>
 
         <div className="i-right">
-            i am right side 
+            <img src={vector1} alt="blue vector" />
+            <img src={vector2} alt="yellow vector" />
+            <img src={boy} alt="" />
         </div>
     </div>
   )
