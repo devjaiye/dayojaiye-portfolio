@@ -1,5 +1,6 @@
 import React from 'react'
 import './Intro.css'
+
 import github from '../../img/github.png'
 import linkedin from '../../img/linkedin.png'
 import instagram from '../../img/instagram.png'
@@ -9,6 +10,7 @@ import vector2 from '../../img/Vector2.png'
 import thumbup from '../../img/thumbup.png'
 import crown from '../../img/crown.png'
 import glassesImoji from '../../img/glassesimoji.png'
+import FloatingDiv from '../FloatingDiv/FloatingDiv'
 
 function Intro() {
   return (
@@ -36,6 +38,10 @@ function Intro() {
             <img src={vector1} alt="blue vector" />
             <img src={vector2} alt="yellow vector" />
             <img src={boy} alt="" />
+            <div>
+                <FloatingDiv/>
+            </div>
+
         </div>
     </div>
   )
