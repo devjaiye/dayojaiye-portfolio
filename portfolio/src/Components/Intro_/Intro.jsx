@@ -48,15 +48,7 @@ function Intro() {
             {/* blur divs */}
             <div className="blur" 
             style={{background: "rgb(238 210 255)"}}></div>
-            <div className="blur">
-                style={{
-                    background: '#C1F5FF',
-                    top: '17rem',
-                    width: '21rem', 
-                    left: '-9rem', 
-                    height: '11rem'
-                }}
-            </div>
+            
         </div>
     </div>
   )
