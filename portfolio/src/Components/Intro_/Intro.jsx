@@ -45,7 +45,9 @@ function Intro() {
             <div style={{top: '12rem', left: '0rem'}}>
                 <FloatingDiv image={thumbup} txt1 = 'Technical' txt2='Writer'/>
             </div>
-
+            {/* blur divs */}
+            <div className="blur" 
+            style={{background: "rgb(238 210 255)"}}></div>
         </div>
     </div>
   )
