@@ -37,9 +37,13 @@ function Intro() {
         <div className="i-right">
             <img src={vector1} alt="blue vector" />
             <img src={vector2} alt="yellow vector" />
-            <img src={boy} alt="" />
-            <div>
+            <img src={boy} alt=""/>
+            <img src={glassesImoji} alt="" />
+            <div style={{top: '-4%', left: '68%'}}>
                 <FloatingDiv image={crown} txt1="Web" txt2="Developer"/>
+            </div>
+            <div style={{top: '12rem', left: '0rem'}}>
+                <FloatingDiv image={thumbup} txt1 = 'Technical' txt2='Writer'/>
             </div>
 
         </div>
