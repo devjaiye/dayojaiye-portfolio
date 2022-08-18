@@ -24,7 +24,7 @@ const Services = () => {
         </div>
         {/* right side */}
         <div className="cards">
-
+            I am the right side guy 
         </div>
     </div>
   )
