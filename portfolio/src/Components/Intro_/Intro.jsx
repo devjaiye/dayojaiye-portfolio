@@ -56,7 +56,6 @@ function Intro() {
                     height: '11rem',
                     left: '-9rem'
                     }}>
-               
             </div>
         </div>
     </div>
