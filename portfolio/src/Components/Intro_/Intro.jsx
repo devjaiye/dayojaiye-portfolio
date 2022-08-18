@@ -12,7 +12,7 @@ import crown from '../../img/crown.png'
 import glassesImoji from '../../img/glassesimoji.png'
 import FloatingDiv from '../FloatingDiv/FloatingDiv'
 
-function Intro() {
+const Intro = () => {
   return (
     <div className="intro">
         <div className="i-left">
