@@ -3,6 +3,7 @@ import './Services.css'
 import HeartEmoji from "../../img/heartemoji.png"
 import Glasses from "../../img/glasses.png"
 import Humble from "../../img/humble.png"
+import Card from '../Card/Card'
 
 const Services = () => {
   return (
@@ -24,7 +25,13 @@ const Services = () => {
         </div>
         {/* right side */}
         <div className="cards">
-            I am the right side guy 
+            <div>
+              <Card
+                emoji = {HeartEmoji}
+                heading = {'Design'}
+                detail = {"Figma, Adobe, Lorem, Sketch"}
+              />
+            </div>
         </div>
     </div>
   )
