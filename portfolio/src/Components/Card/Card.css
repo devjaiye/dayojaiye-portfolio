@@ -35,3 +35,13 @@
     color: #3b63a8;
 }
 
+.cards{
+    position: relative;
+}
+
+.cards>*{
+    position: absolute;
+}
+
+
+

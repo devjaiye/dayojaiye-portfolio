@@ -25,7 +25,7 @@ const Services = () => {
         </div>
         {/* right side */}
         <div className="cards">
-            <div>
+            <div style={{left: '14rem'}}>
               <Card
                 emoji = {HeartEmoji}
                 heading = {'Design'}
