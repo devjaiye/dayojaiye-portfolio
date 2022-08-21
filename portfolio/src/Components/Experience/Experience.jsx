@@ -2,7 +2,12 @@ import React from 'react'
 
 const Experience = () => {
   return (
-    <div>Experience</div>
+    <div className="experience">
+        <div className="achievements">
+            <div className="circle">6+</div>
+            <span>years</span>
+        </div>
+    </div>
   )
 }
 
