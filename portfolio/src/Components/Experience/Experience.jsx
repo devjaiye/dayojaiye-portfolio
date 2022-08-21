@@ -6,6 +6,7 @@ const Experience = () => {
         <div className="achievements">
             <div className="circle">6+</div>
             <span>years</span>
+            <span>Experience</span>
         </div>
     </div>
   )
