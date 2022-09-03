@@ -37,5 +37,8 @@
     left: -8px; 
     bottom: -8px;
     right: -8px;
+    position: absolute;
+    z-index: -1;
+    box-shadow: var(--boxShadow);
 }
 
