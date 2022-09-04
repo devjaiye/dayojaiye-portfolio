@@ -12,6 +12,7 @@ const App=() => {
        <Intro/>
        <Services/>
        <Experience/>
+       <Works/>
        </div>
   )
 }
