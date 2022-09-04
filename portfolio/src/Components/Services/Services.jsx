@@ -13,10 +13,10 @@ const Services = () => {
         <div className="awesome">
             <span>My Awesome</span>
             <span>services</span>
-            <spane>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                  <br /> 
                  ut labore et dolore magna aliqua
-                 </spane>
+                 </span>
                  
                   <a href={Resume} download>
                     <button className="button s-button">Download CV</button>
