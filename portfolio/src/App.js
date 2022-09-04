@@ -3,6 +3,7 @@ import './App.css'
 import Intro from "./Components/Intro_/Intro";
 import Services from "./Components/Services/Services";
 import Experience from "./Components/Experience/Experience";
+import Works from "./Components/Works/Works";
 
 const App=() => {
   return(
@@ -12,7 +13,7 @@ const App=() => {
        <Intro/>
        <Services/>
        <Experience/>
-       
+       <Works/>
        </div>
   )
 }
