@@ -1,5 +1,11 @@
 import React from 'react'
 import './Works.css'
+import upwork from '../../img/Upwork.png'
+import fiverr from '../../img/fiverr.png'
+import Amazon from '../../img/amazon.png'
+import Shopify from '../../img/Shopify.png'
+import Facebook from '../../img/Facebook.png'
+
 const works = () => {
   return (
     <div className="works">
