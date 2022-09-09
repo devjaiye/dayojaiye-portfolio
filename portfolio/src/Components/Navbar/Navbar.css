@@ -12,7 +12,8 @@
 }
 
 .n-name{
-    font-size: 1.3rem;
+    /* font-size: 1.3rem; */
+    font-size: 0.5rem;
     font-weight: bold;
 }
 
@@ -25,6 +26,7 @@
 }
 .n-list{
     flex: 10;
+    font-size: 4px;
 }
 
 .n-list>ul{
@@ -40,6 +42,7 @@
 
 .n-button{
     flex: 2;
+    
 }
 
 .button:hover{
