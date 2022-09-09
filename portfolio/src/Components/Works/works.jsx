@@ -27,6 +27,23 @@ const works = () => {
                     }}>
             </div>       
         </div>
+        {/* right side with circle */}
+        <div className="w-right">
+          <div className="w-mainCircle">
+            <div className="w-secCircle">
+              <img src={upwork} alt="" />
+            </div>
+            <div className="w-secCircle">
+              <img src={fiverr} alt="" />
+            </div>
+            <div className="w-secCircle">
+              <img src={Amazon} alt="" />
+            </div>
+            <div className="w-secCircle">
+              <img src={Shopify} alt="" />
+            </div>
+          </div>
+        </div>
     </div>
   )
 }
