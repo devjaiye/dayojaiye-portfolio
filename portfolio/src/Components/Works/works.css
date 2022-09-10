@@ -49,3 +49,21 @@
     left: 6rem;
     top: 13rem;
 }
+
+.w-secCircle{
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    border-radius: 100%; 
+    border: 5px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: "none";
+    box-shadow: var(--boxShadow);
+    background: white; 
+}
+
+.w-secCircle > img{
+    transform: scale(0.6);
+}
