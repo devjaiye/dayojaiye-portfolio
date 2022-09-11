@@ -5,6 +5,7 @@ import Sidebar from "../../img/sidebar.png"
 import Ecommerce from "../../img/ecommerce.png"
 import HOC from "../../img/hoc.png"
 import MusicApp from "../../img/musicapp.png"
+import 'swiper/css'
 
 const Portfolio = () => {
   return (
@@ -14,8 +15,21 @@ const Portfolio = () => {
       <span>Portfolio</span>
       {/* slider */}
       <Swiper>
+        
         <SwiperSlide>
-          <img src="" alt="" />
+          <img src={Sidebar} alt="" />
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <img src={Ecommerce} alt="" />
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <img src={HOC} alt="" />
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <img src={MusicApp} alt="" />
         </SwiperSlide>
       </Swiper>
     </div>
