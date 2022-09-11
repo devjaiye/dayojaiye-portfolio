@@ -1,9 +1,16 @@
 import React from 'react'
 import './Portfolio.css'
+import {Swiper, SwiperSlide} from 'swiper/react'
 
 const Portfolio = () => {
   return (
-    <div>Portfolio Section</div>
+    <div className="portfolio">
+      {/* heading section */}
+      <span>Recent Projects</span>
+      <span>Portfolio</span>
+      {/* slider */}
+      
+    </div>
   )
 }
 
