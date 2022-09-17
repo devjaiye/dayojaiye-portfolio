@@ -19,8 +19,9 @@
     font-weight: bold;
 }
 
+/* slider */
 .portfolio .swiper{
-    overflow: visible !important;
+    overflow: visible!important;
 }
 
 .portfolio-slider{
