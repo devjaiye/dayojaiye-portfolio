@@ -6,6 +6,21 @@ import { themeContext } from "../../Context"
 
 
 const Contact = () => {
+
+    const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_nteetjj', 'template_9hnry5e', form.current, '-VlM0y6QOcmpCU29-xLoc')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
+  
     return (
         <div className="contact-form" id="contact">
       {/* left side copy and paste from work section */}
