@@ -17,10 +17,10 @@ const App=() => {
   return(
      <div className="App"
     //...dark mode...
-  //    style={{
-  //     background : darkMode? 'black': '',
-  //     color : darkMode? 'white': '',
-  //  }}
+     style={{
+      background : darkMode? 'black': '',
+      color : darkMode? 'white': '',
+   }}
      > 
        {/* place your componets here */}
        <Navbar/>
