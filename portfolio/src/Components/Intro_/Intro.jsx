@@ -4,7 +4,7 @@ import './Intro.css'
 import github from '../../img/github.png'
 import linkedin from '../../img/linkedin.png'
 import instagram from '../../img/instagram.png'
-import boy from '../../img/boy.png'
+import boy from '../../img/dayojaiye_.png'
 import vector1 from '../../img/Vector1.png'
 import vector2 from '../../img/Vector2.png'
 import thumbup from '../../img/thumbup.png'
@@ -37,7 +37,9 @@ const Intro = () => {
         <div className="i-right">
             <img src={vector1} alt="blue vector" />
             <img src={vector2} alt="yellow vector" />
-            <img src={boy} alt=""/>
+            <div style={{content: 'fit-content'}}>
+            {/* <img src={boy} alt=""/>    */}
+            </div>
             <img src={glassesImoji} alt="" />
             <div style={{top: '-4%', left: '68%'}}>
                 <FloatingDiv image={crown} txt1="Web" txt2="Developer"/>
