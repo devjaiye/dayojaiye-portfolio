@@ -4,7 +4,7 @@ import './Intro.css'
 import github from '../../img/github.png'
 import linkedin from '../../img/linkedin.png'
 import instagram from '../../img/instagram.png'
-import boy from '../../img/dayojaiye_.png'
+import boy from '../../img/boy.png'
 import vector1 from '../../img/Vector1.png'
 import vector2 from '../../img/Vector2.png'
 import thumbup from '../../img/thumbup.png'
@@ -13,10 +13,15 @@ import glassesImoji from '../../img/glassesimoji.png'
 import FloatingDiv from '../FloatingDiv/FloatingDiv'
 import {useContext} from 'react'
 import { themeContext } from '../../Context'
+import {motion} from 'framer-motion'
+
 const Intro = () => {
+    //..framer motion 
+  const transition = {duration: 2, type: 'spring'}
      // context and darkmode...
   const theme = useContext(themeContext)
   const darkMode = theme.state.darkMode
+  
   return (
     <div className="intro">
         <div className="i-left">
@@ -41,12 +46,22 @@ const Intro = () => {
         <div className="i-right">
             <img src={vector1} alt="blue vector" />
             <img src={vector2} alt="yellow vector" />
-            <div style={{content: 'fit-content'}}>
-            {/* <img src={boy} alt=""/>    */}
-            </div>
-            <img src={glassesImoji} alt="" />
+            <img src={boy} alt=""/>
 
-            <div style={{top: '-4%', left: '68%', color: darkMode? "black" : ""}}>
+        <motion.img
+          initial={{ left: "-36%" }}
+          whileInView={{ left: "-24%" }}
+          transition={transition}
+          src={glassesImoji}
+          alt=""/>
+        
+            
+            <div
+             initial={{top: '-4%'}}  
+             whileInView= {{left: '68%'}}
+             transition= {transition} 
+
+            style={{top: '-4%', left: '68%', color: darkMode? "black" : ""}}>
                 <FloatingDiv image={crown} txt1="Web" txt2="Developer"/>
             </div>
             
