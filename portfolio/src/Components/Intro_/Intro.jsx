@@ -56,18 +56,26 @@ const Intro = () => {
           alt=""/>
         
             
-            <div
-             initial={{top: '-4%'}}  
-             whileInView= {{left: '68%'}}
-             transition= {transition} 
-
+            <motion.div
+              initial={{ top: "-4%", left: "74%" }}
+              whileInView={{ left: "68%" }}
+              transition={transition}
+              className="floating-div" 
+              //..darkMode..
             style={{top: '-4%', left: '68%', color: darkMode? "black" : ""}}>
+
                 <FloatingDiv image={crown} txt1="Web" txt2="Developer"/>
-            </div>
-            
-            <div style={{top: '12rem', left: '0rem', color: darkMode? "black" : ""}}>
+            </motion.div>
+            {/* animation */}
+            <motion.div
+            initial={{ left: "9rem", top: "18rem" }}
+            whileInView={{ left: "0rem" }}
+            transition={transition}
+            className="floating-div"
+            // darkMode...
+            style={{top: '12rem', left: '0rem', color: darkMode? "black" : ""}}>
                 <FloatingDiv image={thumbup} txt1 = 'Technical' txt2='Writer'/>
-            </div>
+            </motion.div>
             
             {/* blur divs */}
             <div className="blur" 
