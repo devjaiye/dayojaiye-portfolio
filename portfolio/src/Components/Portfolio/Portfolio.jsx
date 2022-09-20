@@ -12,7 +12,7 @@ const Portfolio = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div className="portfolio" id="portfolio">
+    <div className="portfolio" id="Portfolio">
       {/* heading section */}
       <span
       style={{color: darkMode? 'white' : ''}}

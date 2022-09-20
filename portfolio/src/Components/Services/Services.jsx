@@ -15,7 +15,7 @@ const Services = () => {
   const transition = {duration: 1, type: 'string'}
 
   return (
-    <div className="services">
+    <div className="services" id="Services">
         {/* left side */}
         <div className="awesome">
             <span 
