@@ -4,7 +4,7 @@ import './Intro.css'
 import github from '../../img/github.png'
 import linkedin from '../../img/linkedin.png'
 import instagram from '../../img/instagram.png'
-import boy from '../../img/boy.png'
+import boy from '../../img/dayo_jaiye.png'
 import vector1 from '../../img/Vector1.png'
 import vector2 from '../../img/Vector2.png'
 import thumbup from '../../img/thumbup.png'
@@ -30,7 +30,7 @@ const Intro = () => {
                 <span>Temidayo Jaiyeoba</span>
                 <span>Software Enginner from Nigeria with high level 
                     of experience in developing quality
-                    websites and mobile apps for business
+                    websites and mobile apps for businesses
                 </span>
             </div>
             <button className="button i-button">
@@ -64,7 +64,7 @@ const Intro = () => {
               //..darkMode..
             style={{top: '-4%', left: '68%', color: darkMode? "black" : ""}}>
 
-                <FloatingDiv image={crown} txt1="Web" txt2="Developer"/>
+                <FloatingDiv image={crown} txt1="Software" txt2="Engineer"/>
             </motion.div>
             {/* animation */}
             <motion.div

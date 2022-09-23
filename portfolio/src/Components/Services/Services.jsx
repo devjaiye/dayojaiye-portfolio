@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+import Resume from './Temidayo_Jaiyeoba_Resume.pdf';
 
 const Services = () => {
   // context
@@ -20,17 +20,17 @@ const Services = () => {
   };
 
   return (
-    <div className="services" id="services">
+    <div className="services" id="Services">
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
-        <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+        <span>
+        I build interactive software projects. With my experience,
           <br />
-          ispum is simpley dummy text of printing
-        </spane>
+        I can write engaging content to promote a company's product
+        </span>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
         </a>
@@ -46,8 +46,8 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"Mobile App"}
+            detail={"Flutter, Firebase, Android Studio, SQFITE"}
           />
         </motion.div>
         {/* second card */}
@@ -58,8 +58,8 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"FrontEnd Developer"}
+            detail={"Html, Css, SCSS, JavaScript, React"}
           />
         </motion.div>
         {/* 3rd */}
@@ -70,9 +70,9 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
+            heading={"Content Creation"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "Technical Writing, Tutorial Videos, Instructor"
             }
             color="rgba(252, 166, 31, 0.45)"
           />
