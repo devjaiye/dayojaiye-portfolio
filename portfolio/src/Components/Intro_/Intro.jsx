@@ -14,6 +14,7 @@ import FloatingDiv from '../FloatingDiv/FloatingDiv'
 import {useContext} from 'react'
 import { themeContext } from '../../Context'
 import {motion} from 'framer-motion'
+import {Link} from 'react-scroll'
 
 const Intro = () => {
     //..framer motion 
@@ -37,7 +38,8 @@ const Intro = () => {
                 Hire me
             </button>
             <div className="i-icons">
-                <img src={linkedin} alt="linkedin" />
+                <Link spy={true} to='https://www.linkedin.com/in/dayo-jaiye/' smooth={true}>
+                    <img src={linkedin} alt="linkedin" /></Link>
                 <img src={instagram} alt="instagram" />
                 <img src={github} alt="github" />
             </div>
