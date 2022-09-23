@@ -12,17 +12,21 @@ const Contact = () => {
 
   //...handling contact form... 
   const form = useRef();
-    const [done, setDone] = useState(false)
+  const [done, setDone] = useState(false)
+  
+  const [answer, setAnswer] = useState('')
+  const [status, setStatus] = useState('typing')
+
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs.sendForm('service_nteetjj', 'template_9hnry5e', form.current, 'G54csb-CTYwKCixO-')
       .then((result) => {
-          console.log(result.text);
+          console.log(result.text)
           setDone(true)
+        
       }, (error) => {
-          console.log(error.text);
+          console.log(error.text)
       });
   };
 
@@ -43,12 +47,16 @@ const Contact = () => {
       </div>
       {/* right side form */}
       <div className="c-right">
-        <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="user_name" className="user"  placeholder="Name"/>
-          <input type="email" name="user_email" className="user" placeholder="Email"/>
-          <textarea name="message" className="user" placeholder="Message"/>
+        <form ref={form}
+         onSubmit={sendEmail}>
+          <input type="text" name="user_name" className="user"  placeholder="Name" 
+          />
+          <input type="email" name="user_email" className="user" placeholder="Email"
+          />
+          <textarea name="message" className="user" placeholder="Message"
+          />
           <input type="submit" value="Send" className="button"/>
-          <span>{done && "Thanks for contacting me. I will reply soon :)"}</span>
+          <span>{done && "Thanks for contacting me. I will reply soon :)"} </span>
           <div
             className="blur c-blur1"
             style={{ background: "var(--purple)" }}
@@ -56,8 +64,6 @@ const Contact = () => {
         </form>
       </div>
     </div>
-            
-
   )
 }
 

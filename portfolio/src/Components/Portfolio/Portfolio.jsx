@@ -1,10 +1,10 @@
 import React,{useContext} from 'react'
 import './Portfolio.css'
 import {Swiper, SwiperSlide} from 'swiper/react'
-import Sidebar from "../../img/sidebar.png"
-import Ecommerce from "../../img/ecommerce.png"
-import HOC from "../../img/hoc.png";
-import MusicApp from "../../img/musicapp.png"
+import etremglobal from "../../img/etrem_global.png"
+import movieFinder from "../../img/movie_finder.png"
+import devTo from "../../img/devTo.png"
+import weatherApp from "../../img/weatherApp_js.png"
 import 'swiper/css'
 import { themeContext } from "../../Context"
 
@@ -27,16 +27,16 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={Sidebar} alt="" />
+         <a href='https://etremglobal.com/' target='_blank'><img src={etremglobal} alt="" /></a> 
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+          <a href="https://moviefinda.netlify.app/" target="_blank"><img src={movieFinder} alt="" /></a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={MusicApp} alt="" />
+          <a href='https://weathermantic.netlify.app/' target="_blank"><img src={weatherApp} alt="" /></a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={HOC} alt="" />
+          <a href="https://dev.to/devjaiye" target="_blank"><img src={devTo} alt="" /></a>
         </SwiperSlide>
       </Swiper>
 
