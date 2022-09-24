@@ -27,9 +27,9 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <span>
-        I build interactive software to solve real world problems and
+        I can provide the required implementation you would love to see in your project.
           <br />
-        I can als write engaging content to promote a company's product or service
+          My writing skill has also helped companies/clients in solving tech-related problems. 
         </span>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>

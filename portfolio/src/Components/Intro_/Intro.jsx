@@ -28,7 +28,7 @@ const Intro = () => {
         <div className="i-left">
             <div className="i-name">
             <span style={{ color: darkMode ? "white" : "" }}>Hello! I Am</span>
-                <span>Temidayo </span>
+                <span>Temidayo</span>
                 <span>Software Engineer from Nigeria. 
                   I enjoy solving real-world problems using technology. 
                   My passion revolves around creativity and learning new things. 
