@@ -34,14 +34,13 @@ const Intro = () => {
                     websites and mobile apps for businesses
                 </span>
             </div>
-            <button className="button i-button">
-                Hire me
-            </button>
+            <Link spy={true} to='Contact' smooth={true}> 
+            <button className="button i-button"> Hire me </button>
+            </Link>
             <div className="i-icons">
-                <Link spy={true} to='https://www.linkedin.com/in/dayo-jaiye/' smooth={true}>
-                    <img src={linkedin} alt="linkedin" /></Link>
-                <img src={instagram} alt="instagram" />
-                <img src={github} alt="github" />
+                   <a href="https://www.linkedin.com/in/dayo-jaiye" target="_blank"><img src={linkedin} alt="linkedin"/></a>
+                <a href="https://www.instagram.com/devjaiye" target="_blank"><img src={instagram} alt="instagram"/></a>
+                <a href="https://www.github.com/devjaiye" target="_blank"><img src={github} alt="github"/></a>
             </div>
         </div>
 

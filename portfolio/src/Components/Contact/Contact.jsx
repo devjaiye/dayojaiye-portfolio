@@ -17,9 +17,13 @@ const Contact = () => {
   const [answer, setAnswer] = useState('')
   const [status, setStatus] = useState('typing')
 
+ 
 
   const sendEmail = (e) => {
     e.preventDefault();
+    // added...
+    e.target.reset();
+    
     emailjs.sendForm('service_nteetjj', 'template_9hnry5e', form.current, 'G54csb-CTYwKCixO-')
       .then((result) => {
           console.log(result.text)

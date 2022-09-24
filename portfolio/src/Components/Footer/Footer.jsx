@@ -12,12 +12,17 @@ const Footer = () => {
             <div className="f-content">
             <span>Temidayo Jaiyeoba | dayojaiye74@gmail.com</span>
             <div className="f-icons">
-                <Insta color="white" size={'3rem'}/>
-                <Twitter color="white" size={'3rem'}/>
-                <Gitub color="white" size={'3rem'}/>
+                <a href="https://www.instagram.com/devjaiye" target="_blank">
+                  <Insta color="white" size={'3rem'}/>
+                  </a>
+                <a href="https://www.twitter.com/devjaiye" target="_blank">
+                  <Twitter color="white" size={'3rem'}/>
+                  </a>
+                <a href="https://www.github.com/devjaiye" target="_blank">
+                  <Gitub color="white" size={'3rem'}/>
+                  </a>
             </div>
             </div>
-   
     </div>
 
   )
