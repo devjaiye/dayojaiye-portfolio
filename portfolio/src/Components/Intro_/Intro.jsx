@@ -27,11 +27,11 @@ const Intro = () => {
     <div className="intro">
         <div className="i-left">
             <div className="i-name">
-            <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-                <span>Temidayo Jaiyeoba</span>
-                <span>Software Enginner from Nigeria with high level 
-                    of experience in developing quality
-                    websites and mobile apps for businesses
+            <span style={{ color: darkMode ? "white" : "" }}>Hello! I Am</span>
+                <span>Temidayo </span>
+                <span>Software Engineer from Nigeria. 
+                  I enjoy solving real-world problems using technology. 
+                  My passion revolves around creativity and learning new things. 
                 </span>
             </div>
             <Link spy={true} to='Contact' smooth={true}> 
