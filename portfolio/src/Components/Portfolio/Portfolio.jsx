@@ -5,6 +5,7 @@ import etremglobal from "../../img/etrem_global.png"
 import movieFinder from "../../img/movie_finder.png"
 import devTo from "../../img/devTo.png"
 import weatherApp from "../../img/weatherApp_js.png"
+import linkedinClone from "../../img/linkedinclone.png"
 import 'swiper/css'
 import { themeContext } from "../../Context"
 
@@ -37,6 +38,9 @@ const Portfolio = () => {
         </SwiperSlide>
         <SwiperSlide>
           <a href="https://dev.to/devjaiye" target="_blank"><img src={devTo} alt="" /></a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href="linkedincloner.netlify.app" target="_blank"><img src={linkedinClone} alt="" /></a>
         </SwiperSlide>
       </Swiper>
 

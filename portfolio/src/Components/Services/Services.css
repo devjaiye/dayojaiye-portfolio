@@ -55,7 +55,7 @@
     left: -18rem;
   }
   
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 480px){
     .services {
       margin-top: 0;
       flex-direction: column;
@@ -68,7 +68,8 @@
     .cards {
       display: flex;
       flex-direction: column;
-      gap: 17rem;
+      gap: 1rem;
+      /* gap 17rem */
     }
     .cards > * {
       position: static;
