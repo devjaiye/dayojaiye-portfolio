@@ -3,7 +3,7 @@ import './Portfolio.css'
 import {Swiper, SwiperSlide} from 'swiper/react'
 import etremglobal from "../../img/etrem_global.png"
 import movieFinder from "../../img/movie_finder.png"
-import devTo from "../../img/devTo.png"
+// import devTo from "../../img/devTo.png"
 import weatherApp from "../../img/weatherApp_js.png"
 import linkedinClone from "../../img/linkedinclone.png"
 import 'swiper/css'
@@ -28,20 +28,19 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-         <a href='https://etremglobal.com/' target='_blank'><img src={etremglobal} alt="" /></a> 
+         <a href='https://etremglobal.com/' target='_blank' rel="noreferrer" ><img src={etremglobal} alt="" /></a> 
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://moviefinda.netlify.app/" target="_blank"><img src={movieFinder} alt="" /></a>
+          <a href="linkedincloner.netlify.app" target="_blank" rel="noreferrer" ><img src={linkedinClone} alt="" /></a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href='https://weathermantic.netlify.app/' target="_blank"><img src={weatherApp} alt="" /></a>
+          <a href="https://moviefinda.netlify.app/" target="_blank" rel="noreferrer" ><img src={movieFinder} alt="" /></a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://dev.to/devjaiye" target="_blank"><img src={devTo} alt="" /></a>
+          <a href='https://weathermantic.netlify.app/' target="_blank" rel="noreferrer" ><img src={weatherApp} alt="" /></a>
         </SwiperSlide>
-        <SwiperSlide>
-          <a href="linkedincloner.netlify.app" target="_blank"><img src={linkedinClone} alt="" /></a>
-        </SwiperSlide>
+        
+        
       </Swiper>
 
     </div>
